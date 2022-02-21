@@ -1,0 +1,29 @@
+@import "https://spiralui.netlify.app/index.css";
+
+.nav {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+}
+.main-text {
+  font-size: 2rem;
+}
+.option {
+  background-color: lightgrey;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+.bg {
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.5rem;
+}
+.pb-1 {
+  padding-bottom: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
