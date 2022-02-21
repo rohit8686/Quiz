@@ -1,0 +1,8 @@
+.correct-ans {
+  background-color: var(--success-color);
+  color: var(--white-color);
+}
+.wrong-ans {
+  background-color: var(--danger-color);
+  color: var(--white-color);
+}
