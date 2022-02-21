@@ -1,0 +1,21 @@
+@import "https://spiralui.netlify.app/index.css";
+
+.nav {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+}
+.main-text {
+  font-size: 2rem;
+}
+.input,
+.full-width {
+  width: 100%;
+}
+.text-info {
+  color: var(--info-color);
+}
+.p-2 {
+  padding: 2rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
