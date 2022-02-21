@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>QuizIt - Quiz</title>
+  </head>
+  <body>
+    <nav class="flex space-between p-1 nav">
+      <a href="/index.html" class="link">
+        <h1 class="main-text gradient-text">QuizIt</h1>
+      </a>
+      <div class="flex">
+        <a href="/Pages/Rules/rules.html" class="link">
+          <h3>Rules</h3>
+        </a>
+        <a href="/index.html" class="link"><h3>Categories</h3></a>
+        <a href="/Pages/Login/login.html"
+          ><button class="btn btn-error">Login</button></a
+        >
+      </div>
+    </nav>
+
+    <main>
+      <h2 class="text-center pt-1">HTML Quiz</h2>
+      <div class="container pt-1">
+        <div class="flex space-between">
+          <h3>Question 1/10</h3>
+          <h3 class="bg">Time : 60 sec</h3>
+        </div>
+        <h2 class="pt-1 pb-1">How to open a link in a new tab ?</h2>
+        <div class="option mb-1">
+          <p>A) &lt; a href="#" target = "_blank"&gt;&lt;/a&gt;</p>
+        </div>
+        <div class="option mb-1">
+          <p>B) &lt;a href="#" target = "blank"&gt;&lt;/a&gt;</p>
+        </div>
+        <div class="option mb-1">
+          <p>C) &lt;a href="#" target = "new"&gt;&lt;/a&gt;</p>
+        </div>
+        <div class="option mb-1">
+          <p>D) None of the above</p>
+        </div>
+        <div class="flex space-between">
+          <a href="#" class="link">
+            <div class="flex no-gap">
+              <span class="material-icons"> chevron_left </span>
+              <h3>Previous</h3>
+            </div>
+          </a>
+          <div class="flex no-gap">
+            <h3>Next</h3>
+            <span class="material-icons"> chevron_right </span>
+          </div>
+        </div>
+      </div>
+      <a href="/Pages/Results/results.html" class="link"
+        ><button class="btn btn-error submit-btn">Submit Quiz</button></a
+      >
+    </main>
+  </body>
+</html>
